@@ -56,6 +56,20 @@ Final score is calculated using:
 
 ---
 
+## 📸 Demo
+
+### UI
+![UI](screenshot1.png)
+
+### Input
+![Input](screenshot2.png)
+
+### Results
+![Results](screenshot3.png)
+
+### Top Candidate
+![Top](screenshot4.png)
+
 ## 🖥️ Tech Stack
 
 - Python  
