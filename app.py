@@ -22,10 +22,10 @@ jd_text = st.text_area("📌 Enter Job Description")
 uploaded_files = st.file_uploader(
     "📂 Upload Resumes (PDF/DOCX)",
     accept_multiple_files=True,
-    type=["pdf", "docx"]   # 👈 restrict formats
+    type=["pdf", "docx"]   # restrict formats
 )
 
-# 👉 MAIN LOGIC
+#  MAIN LOGIC
 if uploaded_files and jd_text:
 
     jd_skills = extract_skills(jd_text)
@@ -66,7 +66,7 @@ if uploaded_files and jd_text:
             "Reason": f"{len(matched_skills)} skills matched, similarity {round(similarity,2)}"
         })
 
-    # ✅ EVERYTHING BELOW MUST BE INSIDE if
+    #  EVERYTHING BELOW MUST BE INSIDE if
 
     df = pd.DataFrame(all_candidates)
 

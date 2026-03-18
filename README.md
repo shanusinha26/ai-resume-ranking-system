@@ -3,15 +3,20 @@
 🚀 A simple AI-powered system that analyzes resumes and ranks candidates based on how well they match a given Job Description.
 
 ---
+## 💡 Why This Project?
+
+Manual resume screening is time-consuming and inefficient. This project demonstrates how AI techniques can automate candidate evaluation and help recruiters quickly identify the best candidates based on skills and relevance.
+
+---
 
 ## 🔍 Overview
 
 Recruitment platforms receive hundreds of resumes for a single job. This project automates the process of:
 
-- Extracting information from resumes
-- Identifying relevant skills
-- Matching resumes with job descriptions
-- Ranking candidates based on a scoring algorithm
+- Extracting information from resumes  
+- Identifying relevant skills  
+- Matching resumes with job descriptions  
+- Ranking candidates based on a scoring algorithm  
 
 ---
 
@@ -66,22 +71,22 @@ Final score is calculated using:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-link>
-cd resume-ranking-system
-
+git clone https://github.com/shanusinha26/ai-resume-ranking-system.git
+cd ai-resume-ranking-system
 2. Create virtual environment
 python -m venv venv
 venv\Scripts\activate
-
 3. Install dependencies
 pip install -r requirements.txt
-
 4. Run the app
 streamlit run app.py
-
 📊 Example
 
-Input: Job Description + Resumes
+Input:
+
+Job Description
+
+Multiple Resumes
 
 Output:
 
@@ -105,7 +110,7 @@ Clean UI for better usability
 
 Uses keyword-based skill extraction
 
-Does not handle complex NLP cases
+Does not handle advanced NLP understanding
 
 Supports only PDF and DOCX formats
 
@@ -113,15 +118,17 @@ Supports only PDF and DOCX formats
 
 Add experience extraction
 
-Use NLP-based skill extraction
+Improve skill extraction using NLP
 
-Add database support
+Add database integration
 
-Deploy as web app
+Deploy as a web application
 
 👨‍💻 Author
 
 Shanu Sinha
 📧 sinhashanu2003@gmail.com
 
-🔗 LinkedIn | GitHub
+🔗 GitHub: https://github.com/shanusinha26/ai-resume-ranking-system
+
+🔗 LinkedIn: https://www.linkedin.com/in/shanu-sinha-20a6a12b6/

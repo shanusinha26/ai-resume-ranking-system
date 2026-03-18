@@ -1,4 +1,4 @@
-# You can expand this list anytime
+#we can add more skills according to updates#
 SKILLS_DB = [
     "python", "java", "c++", "sql", "machine learning",
     "deep learning", "nlp", "data analysis", "pandas",
